@@ -1,0 +1,10 @@
+bin/
+out/
+dist/
+node_modules/
+.vscode-test/
+.DS_Store
+.user-data-dir-test/
+.bash_history
+.vscode/
+test/
