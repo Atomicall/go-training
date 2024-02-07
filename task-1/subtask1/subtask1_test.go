@@ -1,4 +1,4 @@
-package main
+package subtask1
 
 import "testing"
 
@@ -18,7 +18,7 @@ func Test_checkPalindrome(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := checkPalindrome(tt.args.str); got != tt.want {
+			if got := CheckPalindrome(tt.args.str); got != tt.want {
 				t.Errorf("checkPalindrome() = %v, want %v on args: %v", got, tt.want, *tt.args.str)
 			}
 		})

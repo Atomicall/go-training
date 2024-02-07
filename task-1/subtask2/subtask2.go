@@ -1,15 +1,20 @@
-package main
+package subtask2
 
 import (
 	"bufio"
+	"fmt"
 	"log"
 	"os"
 	s "strings"
-	t2 "subtask2/subtask2"
 )
 
-func main() {
-	t2.Smain()
+func Smain() {
+	stringToCheck := readString()
+	fmt.Println("String to process:", stringToCheck)
+}
+
+func RemoveRepeated(strings []string) []string {
+	return []string{}
 }
 
 func readString() string {
